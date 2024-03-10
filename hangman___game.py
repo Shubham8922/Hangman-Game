@@ -1,6 +1,6 @@
-# hangman game
+ # hangman game
 import random
-import word_file
+import hangman_words
 from hangman_art import stages
 import hangman_art
 import os
@@ -11,7 +11,7 @@ print("\n")
 print(hangman_art.logo)
 #word_list =["apple","banana","orange","grapes","mango","gill"]
 lives=6
-chosen_word = random.choice(word_file.words_list)
+chosen_word = random.choice(hangman_words.word_list)
 time.sleep(4)
 os.system('cls || clear')
 
