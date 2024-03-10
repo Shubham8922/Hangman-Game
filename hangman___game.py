@@ -11,7 +11,7 @@ print("\n")
 print(hangman_art.logo)
 #word_list =["apple","banana","orange","grapes","mango","gill"]
 lives=6
-chosen_word = random.choice(word_file.words)
+chosen_word = random.choice(word_file.words_list)
 time.sleep(4)
 os.system('cls || clear')
 
